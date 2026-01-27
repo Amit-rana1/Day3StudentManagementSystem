@@ -11,7 +11,7 @@ import java.lang.annotation.Documented;
 @Data //auto getter and setter function
 @AllArgsConstructor  //make constructor auto
 @NoArgsConstructor
-@Document(collation = "students")
+@Document(collection = "students")
 public class StudentModel {
     @Id //primary key
     private String id;
